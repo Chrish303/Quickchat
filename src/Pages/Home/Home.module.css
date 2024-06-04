@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+.container{
+    max-width: 1280px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.navbar{
+    font-family: "Inter",sans-serif;
+}
+.home{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left h1{
+    font-family: "Inter",sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.left p {
+    color: rgba(128,128,128,0.648);
+    font-size: 16px;
+    font-family: "Inter",sans-serif;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.inputContainer{
+    margin-top: 20px;
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.inputContainer input{
+    width: 450px;
+    outline: none;
+    padding: 20px 0;
+    padding-left: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+.inputContainer > button{
+    background-color: transparent;
+    border: none;
+    padding: 0 5px;
+    padding-top: 2px;
+    cursor: pointer;
+}
+.inputContainer >button >img{
+    width: 40px;
+}
+
+.right{
+    width: 700px;
+    object-fit: contain;
+}
